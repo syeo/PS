@@ -53,10 +53,27 @@
 using namespace std;
 
 #define FOR(a , b , c) for(int a = (int)b; a<=(int)c; a++)
+#define FORD(a , b , c) for(int a = (int)b; a>=(int)c; a--)
 #define SZ(v) ((int)(v).size())
 #define ALL(o) o.begin(), o.end()
-#define pii pair <int, int>
+#define PII pair <int, int>
+#define MP(a, b) make_pair(a, b)
+
+void input(void) {
+
+}
+
+void solve(void) {
+
+}
+
+void output(void) {
+
+}
 
 int main(void) {
+  input();
+  solve();
+  output();
   return 0;
 }
