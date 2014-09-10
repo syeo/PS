@@ -56,8 +56,13 @@ using namespace std;
 #define FORD(a , b , c) for(int a = (int)b; a>=(int)c; a--)
 #define SZ(v) ((int)(v).size())
 #define ALL(o) o.begin(), o.end()
-#define PII pair <int, int>
+#define PII pair < int, int >
 #define MP(a, b) make_pair(a, b)
+#define VI vector < int >
+
+int gcd(int a, int b) {
+  return b == 0 ? a : gcd(b, a % b);
+}
 
 void input(void) {
 
